@@ -27,7 +27,7 @@ int main (int argc, char** argv)
 	commandLA(argv[1], argv[3], argv[4]);
 
 	// File to open
-	char* file = argv[2];
+	char *file = argv[2];
 	
 	// File to output
 	char *outFile = argv[4];
@@ -119,7 +119,7 @@ int commandLA (char *arg1, char *arg2, char *arg3)
 }
 
 
-/*Reads the Java code and outouts its info*/
+/*Reads the Java code and outputs its info*/
 int get_info (char *file)
 {
 	int status = 0;
@@ -356,7 +356,7 @@ int comments_counter(char *file, int *nofComments)
 }
 
 
-/*Outputs a file continging comments and methods*/
+/*Outputs a file containing comments and methods*/
 int output_file(char *file, char *outFile)
 {
 	int status = 0;
