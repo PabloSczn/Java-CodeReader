@@ -17,3 +17,5 @@ Makefile targets:
 The arguments that can be used are:
 -i <filename.java>	to specify the Java doc to open
 -o <filename>	to specify the name of the output file
+
+Two Java files are included for example purposes
