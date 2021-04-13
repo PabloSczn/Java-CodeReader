@@ -1,5 +1,6 @@
 # CodeReader
-Compiled using Visual Studio Command Line (C must be installed in VS)
+Compiled using Visual Studio Command Line (C must be installed in VS).
+
 Toolchain: Visual Studio 2019 Developer Command Prompt v16.8.4
 
 This program uses C to read a Java file, output its information (methods, author, returns) and a file with its comments and methods
@@ -15,7 +16,9 @@ Makefile targets:
 
 
 The arguments that can be used are:
--i <filename.java>	to specify the Java doc to open
--o <filename>	to specify the name of the output file
+-i <filename.java>	to specify the Java doc to open.
+
+-o <filename>	to specify the name of the output file.
+	
 
 Two Java files are included for example purposes
